@@ -174,3 +174,75 @@ header nav ul li{
     color: rgb(38, 156, 38);
     padding: 20px;
 }
+
+.banner-recomendaciones {
+    padding: 20px;
+    background-color: rgb(111, 169, 25);
+    text-align: center;
+}
+
+.masrecomendaciones{
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 15px;
+    justify-items: center;
+    display: flex;
+    gap: 4px;
+    margin: 15px;
+    
+}
+h3{
+    color: blueviolet;
+    font-size: 1rem;
+}
+
+button{
+    border-radius: 1pc;
+    background-color: red;
+}
+
+/* GRID*/
+.medicinales{
+    display:grid;
+    grid-gap: 20px;
+    max-width: 1000px;
+    width: 90%;
+    margin: 20px auto;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(5,auto);
+  }
+  .medicinales div ,
+  .medicinales .otro,
+  .medicinales .contenido,
+  .medicinales .aside,
+  .medicinales .contactanos{
+      
+      padding: 20px;
+      border-radius: 4px;
+  }
+  .otro {
+    background-color: greenyellow;
+      grid-column-start: 1;
+      grid-column-end: -1;
+  }
+ 
+  .contenido3{
+    grid-column: span 2;
+  }
+
+  .aside{
+    grid-column: 3 / 4;
+    background: bisque;
+    text-align: center;
+    align-items: center; 
+    grid-row: 2/3;
+  }
+  .widget-1 , .widget-2{
+
+    background: rgb(128, 204, 15);
+    color: aliceblue;
+    height: 100px;
+    text-align: center;
+    
+   
+  }
