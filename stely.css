@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header{
+    background-color: rgb(177, 240, 83);
+    color: blue;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header nav ul li,nav,h1{
+    display: inline-block;
+}
+header ul li a {
+    text-decoration: none;
+}
+nav{
+    width: 60%;
+}
+header nav ul{
+    width: fit-content;
+    margin-left: auto;
+}
+
+header nav ul li{
+    margin-right: 20px;
+}
+.contactanos{
+    background-color: black;
+    color: aliceblue;
+    display:flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.portada{
+    width: 100vw;
+    height: 100vh ;
+    background-image: url(./imagenes/hermosas.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+ }
+
+ .text__portada{
+   text-align: center;
+   color: rgb(148, 211, 22);
+  
+   position: absolute;
+   top: 50%;
+   background-color: rgba(0, 0, 0, 0.075);
+ }
+ .text__portada h2{
+    font-size: 2rem;
+}
+.text__portada p{
+    font-size: 3rem;
+}
+.beneficios{
+    font-size: 1.5rem;
+    background-color: rgba(127, 255, 212, 0.171);
+    text-align: center;
+    padding: 20px 20px;
+}
+
+#plantas {
+    padding: 20px;
+}
+.plantass{
+    display: flex;
+    width: 120px;
+    height: 100px;
+}
+.barra{
+    padding: 20px;
+}
+.barra h2{
+    
+    background-color: blue;
+    text-align: center;
+    padding: 20px;
+    color: rgb(0, 255, 64);
+}
+
+.box {
+    padding: 20px;
+    height: 200px;
+   
+}
+.planta1{
+    width: 200px;
+    border: 2px solid black;
+    padding: 30px;
+    border-radius: 20px;
+    
+    
+}
+
+.planta1 h3{
+    text-align: center;
+    padding: 10px;
+}
+
+.planta1 img{
+    width: 100%;
+    padding: 10px;
+}
+
+.planta1 a{
+    display: inline-block;
+    text-decoration: none;
+    border: solid 2px black;
+    padding: 5px 5px;
+    background-color: rgba(127, 255, 212, 0.459);
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.planta1 p{
+    margin-block: 20px;
+}
+
+.planta1 a:hover{
+    background-color: blueviolet;
+}
+
+.foto{
+    width: 120px;
+    height: 100px;
+}
+.caja{
+    width: 300px;
+    height: 500px;
+    border: solid 3px black;
+    font-size: 1rem;
+    padding: 20px;
+    border-radius: 3px;
+  
+}
+
+.suculentas{
+    background-color: rgba(35, 227, 241, 0.178);
+    height: 200vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+   
+}
+
+.sub{
+    color: blueviolet;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 20px;
+    display: block;
+}
+ .foto1{
+    padding: 15px;
+    width: 200px;
+    height: 150px;
+    border-radius: 2px;
+}
+
+.title{
+    text-align: center;
+    color: rgb(38, 156, 38);
+    padding: 20px;
+}
