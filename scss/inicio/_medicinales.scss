@@ -1,0 +1,21 @@
+.medicinales{
+    display:grid;
+    grid-gap: 20px;
+    max-width: 1000px;
+    width: 90%;
+    margin: 20px auto;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(5,auto);
+
+  }
+  .medicinales div ,
+  .medicinales .otro,
+  .medicinales .contenido,
+  .medicinales .aside,
+  .medicinales .contactanos{
+      
+      padding: 20px;
+      border-radius: 4px;
+  }
+
+  

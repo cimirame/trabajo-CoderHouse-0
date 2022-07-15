@@ -1,0 +1,60 @@
+.plantass{
+    display: flex;
+    width: 120px;
+    height: 100px;
+}
+
+.barra{
+    background-color: purple;
+    text-align: center;
+    padding: 20px;
+
+    h2{
+    
+        background-color: blue;
+        text-align: center;
+        padding: 20px;
+        color: rgb(0, 255, 64);
+        border-radius: 4px;
+    }
+}
+.plantas {
+    padding: 20px;
+}
+.box {
+    padding: 20px;
+    height: 200px;
+
+    .planta1{
+        width: 200px;
+        border: 2px solid black;
+        padding: 30px;
+        border-radius: 20px;
+    }
+
+    .foto{
+        width: 120px;
+        height: 100px;
+    }
+     a{
+        display: inline-block;
+        text-decoration: none;
+        border: solid 2px black;
+        padding: 5px 5px;
+        background-color: rgba(127, 255, 212, 0.459);
+        color: black;
+        font-weight: bold;
+        border-radius: 10px;
+        text-align: center;
+    }
+    p{
+        margin-block: 20px;
+    }
+    
+    a:hover{
+        background-color: blueviolet;
+    }
+    
+
+   
+}

@@ -1,11 +1,11 @@
-*{
+/**{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
+}*/
 
-header{
+/*header{
     background-color: rgb(177, 240, 83);
     color: blue;
     padding: 20px;
@@ -30,15 +30,15 @@ header nav ul{
 
 header nav ul li{
     margin-right: 20px;
-}
-.contactanos{
+}*/
+/*.contactanos{
     background-color: black;
     color: aliceblue;
     display:flex;
     text-align: center;
     justify-content: space-around;
-}
-.contacto1{
+}*/
+/*.contacto1{
     width: 300px;
     background: purple;
     padding: 20px;
@@ -53,7 +53,7 @@ header nav ul li{
     text-align: center;
     flex: auto;
     color: blueviolet;
-}
+}*/
 
 
 
@@ -89,7 +89,7 @@ header nav ul li{
 
 
 
-#plantas {
+/*#plantas {
     padding: 20px;
 }
 .plantass{
@@ -153,8 +153,8 @@ header nav ul li{
 .foto{
     width: 120px;
     height: 100px;
-}
-.caja{
+}*/
+/*.caja{
     width: 300px;
     height: 500px;
     border: solid 3px black;
@@ -162,9 +162,9 @@ header nav ul li{
     padding: 20px;
     border-radius: 3px;
   
-}
+}*/
 
-.suculentas{
+/*.suculentas{
     background-color: rgba(35, 227, 241, 0.178);
     height: 200vh;
     display: flex;
@@ -193,7 +193,7 @@ header nav ul li{
     text-align: center;
     color: rgb(38, 156, 38);
     padding: 20px;
-}
+}*/
 
 .banner-recomendaciones {
     padding: 20px;
@@ -222,7 +222,7 @@ button{
 }
 
 /* GRID*/
-.medicinales{
+/*.medicinales{
     display:grid;
     grid-gap: 20px;
     max-width: 1000px;
@@ -239,7 +239,7 @@ button{
       
       padding: 20px;
       border-radius: 4px;
-  }
+  }*/
   .otro {
     background-color: greenyellow;
       grid-column-start: 1;

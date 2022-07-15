@@ -1,0 +1,41 @@
+.suculentas{
+    background-color: rgba(35, 227, 241, 0.178);
+    height: 200vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+
+    .caja{
+        width: 300px;
+        height: 500px;
+        border: solid 3px black;
+        font-size: 1rem;
+        padding: 20px;
+        border-radius: 3px;
+      
+    }
+    
+
+}
+
+.sub{
+    color: blueviolet;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 20px;
+    display: block;
+}
+ .foto1{
+    padding: 15px;
+    width: 200px;
+    height: 150px;
+    border-radius: 2px;
+}
+
+.title{
+    text-align: center;
+    color: rgb(38, 156, 38);
+    padding: 20px;
+}
